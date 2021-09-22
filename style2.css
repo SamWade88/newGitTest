@@ -1,0 +1,11 @@
+.str{ 
+	animation-name: blink;
+	animation-duration: 1s;
+	animation-iteration-count: once;
+}
+
+@keyframes blink{
+	5%{
+		opacity: 0.0;
+	}
+}
